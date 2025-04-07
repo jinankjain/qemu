@@ -29,6 +29,7 @@ arm_system_ss.add(files(
 arm_user_ss = ss.source_set()
 
 subdir('hvf')
+subdir('whpx')
 
 if 'CONFIG_TCG' in config_all_accel
    subdir('tcg')
